@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.home-page {
+  font-family: 'VT323', monospace;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.home-page .center-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.home-page .select-row {
+  display: flex;
+  min-width: 150px;
+}
+
+.home-page .select-row:hover {
+  background-color: #cececefd;
+}
+
+.home-page .triangle {
+  display: none;
+}
+
+.home-page .select-row:hover .triangle {
+  padding-top: 10px;
+  display: block; /* Display the triangle when the row is hovered */
+}
+
+.home-page .text-selection {
+  padding: 10px;
+  transition: transform 0.1s ease-in-out;
+}
+
+.home-page .select-row:hover .text-selection {
+  transform: scale(1.05);
+}
+
+.home-page a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: wavy;
+}
