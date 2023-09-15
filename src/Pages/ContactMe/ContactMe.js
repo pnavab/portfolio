@@ -1,14 +1,14 @@
 import React from 'react';
-import './Projects.css';
+import './ContactMe.css';
 import Typewriter from 'typewriter-effect';
 
-export default function Projects() {
+export default function ContactMe() {
     return (
       <>
-        <div className='projects page' id='projects-page'>
+        <div className='contact-page' id='contact-me'>
             <div className='subpage-title'>
                 <Typewriter className='title' options={{
-                    strings: [`Projects`],
+                    strings: [`Contact Me`],
                     autoStart: true,
                     loop: true,
                     pauseFor: 10000,

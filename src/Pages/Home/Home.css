@@ -55,13 +55,13 @@
   transform: scale(1.05);
 }
 
-.home-page a {
+a {
   margin-top: 5px;
   margin-bottom: 5px;
   text-decoration: wavy;
 }
 
-.home-page a:visited {
+.home-page a {
   color: rgb(110, 59, 110);
 }
 
