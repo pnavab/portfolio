@@ -16,6 +16,9 @@ export default function Overview() {
                   deleteSpeed: 35
               }}/>
           </div>
+          <div className='name-info'>
+              <h1>Hello, my name is Pablo. I like full-stack development, and currently I am working on CPS Research for autonomous vehicle collision detection.</h1>
+          </div>
       </div>
     </> 
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import { triangleSymbol } from './SVG';
+import { triangleSymbolPointingLeft } from './SVG';
 import { Col, Row } from 'reactstrap';
 import Typewriter from 'typewriter-effect';
 import { Link, animateScroll as scroll } from 'react-scroll';
@@ -22,7 +22,7 @@ export default function Home() {
           <div className='center-text'>
             <Row className='select-row'>
               <div className='triangle'>
-                {triangleSymbol()}
+                {triangleSymbolPointingLeft()}
               </div>
               <div className='text-selection'>
                 <Link
@@ -39,7 +39,7 @@ export default function Home() {
             <Row className='select-row'>
               <Col>
                 <div className='triangle'>
-                  {triangleSymbol()}
+                  {triangleSymbolPointingLeft()}
                 </div>
               </Col>
               <Col>
@@ -59,7 +59,7 @@ export default function Home() {
             <Row className='select-row'>
               <Col>
                 <div className='triangle'>
-                  {triangleSymbol()}
+                  {triangleSymbolPointingLeft()}
                 </div>
               </Col>
               <Col>
