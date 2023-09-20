@@ -1,0 +1,53 @@
+.project-section {
+    display: flex;
+    flex-direction: row;
+}
+.project-selector {
+    display: flex;
+    max-width: 250px;
+    min-width: 150px;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 50px;
+    margin-top: 30vh;
+    font-size: 2.5rem;
+}
+
+.project-selector .select-row {
+    max-width: 200px;
+    justify-content: space-between;
+}
+
+.project-selector .triangle {
+    padding-right: 10px;
+}
+
+.project-selector .text-selection {
+    font-size: 2.5rem;
+}
+
+.project-card-container {
+    background-color: rgb(235, 209, 209);
+    display: flex;
+    height: 60vh;
+    width: 30vw;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-right: 15%;
+    margin-left: auto;
+}
+
+.project-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card-description {
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}

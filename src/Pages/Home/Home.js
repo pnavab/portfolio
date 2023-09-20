@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import { triangleSymbolPointingLeft } from './SVG';
 import { Col, Row } from 'reactstrap';
+import { triangleSymbolPointingRight } from './SVG';
 import Typewriter from 'typewriter-effect';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
@@ -22,7 +22,7 @@ export default function Home() {
           <div className='center-text'>
             <Row className='select-row'>
               <div className='triangle'>
-                {triangleSymbolPointingLeft()}
+                {triangleSymbolPointingRight()}
               </div>
               <div className='text-selection'>
                 <Link
@@ -37,44 +37,36 @@ export default function Home() {
               </div>
             </Row>
             <Row className='select-row'>
-              <Col>
-                <div className='triangle'>
-                  {triangleSymbolPointingLeft()}
-                </div>
-              </Col>
-              <Col>
+              <div className='triangle'>
+                {triangleSymbolPointingRight()}
+              </div>
                 <div className='text-selection'>
-                  <Link
-                    activeClass="active"
-                    to="projects-page"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
-                  > Projects
-                  </Link>
-                </div>
-              </Col>
+                <Link
+                  activeClass="active"
+                  to="projects-page"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                > Projects
+                </Link>
+              </div>
             </Row>
             <Row className='select-row'>
-              <Col>
-                <div className='triangle'>
-                  {triangleSymbolPointingLeft()}
-                </div>
-              </Col>
-              <Col>
-                <div className='text-selection'>
-                  <Link
-                    activeClass="active"
-                    to="contact-me"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
-                  > Contact Me
-                  </Link>
-                </div>
-              </Col>
+              <div className='triangle'>
+                {triangleSymbolPointingRight()}
+              </div>
+              <div className='text-selection'>
+                <Link
+                  activeClass="active"
+                  to="contact-me"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                > Contact Me
+                </Link>
+              </div>
             </Row>
           </div>
       </div>

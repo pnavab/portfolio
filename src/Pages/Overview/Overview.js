@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 export default function Overview() {
   return (
     <>
-      <div className='overview page' id='overview-page'>
+      <div className='overview-page' id='overview-page'>
           <div className='subpage-title'>
               <Typewriter className='title' options={{
                   strings: [`About Me`],

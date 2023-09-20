@@ -8,7 +8,7 @@ import ContactMe from '../ContactMe/ContactMe';
 export default function Portfolio() {
   return (
     <>
-      <div className='main-page'>
+      <div className='portfolio'>
           <Home />
           <Overview />
           <Projects />
