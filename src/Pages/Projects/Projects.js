@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './Projects.css';
 import Typewriter from 'typewriter-effect';
-import { Row, Col } from 'reactstrap';
+import { Row } from 'reactstrap';
 import { triangleSymbolPointingLeft } from './SVG';
+import cleezyImage from './cleezy.jpg';
 
 export default function Projects() {
-  const [selectedProject, setSelectedProject] = useState('');
+  const [selectedProject, setSelectedProject] = useState('Cleezy');
 
   async function handleSelect(project) {
     setSelectedProject(project);
@@ -17,11 +18,14 @@ export default function Projects() {
       case 'Cleezy':
         return (
           <div className='project-card'>
+            <div className='project-card-image-container'>
+              <img src={cleezyImage} alt='cleezy-screenshot' style={{ margin: '10px',maxWidth: '100%' }}></img>
+            </div>
             <div className='project-card-description'>
               Cleezy was a URL shortening service I made for the Software and Computer Engineering Society's club page.
               I used Python's FastAPI library, SQLite for the database, and Docker to containerize the code. I also added
               custom Prometheus metrics for tracking creation time, redirect response time, and error counter. SCE uses 
-              this shortener for links such as the Discord invite. Check it out at <a href='sce.sjsu.edu/s/discord'>sce.sjsu.edu/s/discord</a>!
+              this shortener for links such as the Discord invite. Check it out at <a href='https://sce.sjsu.edu/s/discord'>sce.sjsu.edu/s/discord</a>!
             </div>
           </div>
         );
@@ -29,7 +33,9 @@ export default function Projects() {
         return (
           <div className='project-card'>
             <div className='project-card-description'>
-              JotBot is an AI-powered note taking web app prototype. It allows the user to select from various LLMs.
+              JotBot is an AI-powered note taking app prototype. It allows the user to write down and save 1000-character notes, with AI integrated.
+              For example, the user can ask ChatGPT a question in one field, and the answer will show up in the note itself, allowing for easy
+              formatting of the answer.
             </div>
           </div>
         );
@@ -37,7 +43,9 @@ export default function Projects() {
         return (
           <div className='project-card'>
             <div className='project-card-description'>
-              This was a project I contributed to in the SCE club room. 
+              This was a project I contributed to in the SCE club room for playing music on speakers through a Raspberry Pi. This was done
+              by connecting the Pi to the room's server and opening an SSH Tunnel to forward a port on the server to the port on the Pi hosting
+              the music playing API. I also wrote a Bash script to read command line arguments that started or stopped both the tunnel and API. 
             </div>
           </div>
         );
