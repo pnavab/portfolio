@@ -18,7 +18,7 @@ export default function Projects() {
         return (
           <div className='project-card'>
             <div className='project-card-description'>
-              This was a URL shortening service I made for the Software and Computer Engineering Society's club page.
+              Cleezy was a URL shortening service I made for the Software and Computer Engineering Society's club page.
               I used Python's FastAPI library, SQLite for the database, and Docker to containerize the code. I also added
               custom Prometheus metrics for tracking creation time, redirect response time, and error counter. SCE uses 
               this shortener for links such as the Discord invite. Check it out at <a href='sce.sjsu.edu/s/discord'>sce.sjsu.edu/s/discord</a>!
@@ -29,14 +29,16 @@ export default function Projects() {
         return (
           <div className='project-card'>
             <div className='project-card-description'>
-              
+              JotBot is an AI-powered note taking web app prototype. It allows the user to select from various LLMs.
             </div>
           </div>
         );
       case 'Raspberry Pi Speaker System':
         return (
           <div className='project-card'>
-            this is a card for the rapsberry pi speaker system
+            <div className='project-card-description'>
+              This was a project I contributed to in the SCE club room. 
+            </div>
           </div>
         );
       case '':
