@@ -19,7 +19,7 @@ export default function Projects() {
         return (
           <div className='project-card'>
             <div className='project-card-image-container'>
-              <img src={cleezyImage} alt='cleezy-screenshot' style={{ margin: '10px',maxWidth: '100%' }}></img>
+              <img src={cleezyImage} alt='cleezy-screenshot' style={{ maxWidth: '100%', maxHeight: '100%', paddingTop: '10px' }}></img>
             </div>
             <div className='project-card-description'>
               Cleezy was a URL shortening service I made for the Software and Computer Engineering Society's club page.
@@ -101,7 +101,16 @@ export default function Projects() {
             </Row>
           </div>
           <div className='project-card-container'>
+            <div className='win-bar'>
+              <div className='win-close-button' onClick={() => setSelectedProject('')}></div>
+              <div className='win-full-button'></div>
+              <div className='win-min-button'></div>
+              <div className='win-upd-button'></div>
+              <div className='win-text'>127.0.0.1:8080/{selectedProject}</div>
+            </div>
+            {/* <div className='project-card-content'> */}
               {renderCard()}
+            {/* </div> */}
           </div>
         </div>
       </div>
