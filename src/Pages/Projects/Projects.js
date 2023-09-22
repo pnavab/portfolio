@@ -19,7 +19,7 @@ export default function Projects() {
         return (
           <div className='project-card'>
             <div className='project-card-image-container'>
-              <img src={cleezyImage} alt='cleezy-screenshot' style={{ maxWidth: '100%', maxHeight: '100%', paddingTop: '10px' }}></img>
+              <img src={cleezyImage} alt='cleezy-screenshot' style={{ maxWidth: '100%', maxHeight: '100%', padding: '10px' }}></img>
             </div>
             <div className='project-card-description'>
               Cleezy was a URL shortening service I made for the Software and Computer Engineering Society's club page.

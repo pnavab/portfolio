@@ -29,7 +29,6 @@
 .project-card-container {
     border: 5px ridge #75736f;
     display: flex;
-    height: 60vh;
     width: 30%;
     align-content: center;
     flex-direction: column;
@@ -89,7 +88,7 @@
 }
   
 .project-card {
-    height: calc(100% - 28px);
+    height: calc(60vh);
     display: flex;
     flex-direction: column;
     background-color: rgb(136, 165, 136);
@@ -101,7 +100,7 @@
 
 .project-card-image-container {
     width: 100%;
-    max-height: 52%;
+    max-height: 60%;
     display: flex;
     justify-content: center;
 }
