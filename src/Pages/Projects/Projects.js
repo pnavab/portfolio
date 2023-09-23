@@ -52,7 +52,7 @@ export default function Projects() {
       case '':
         return (
           <div className='project-card'>
-            this is an empty card
+            Please select a project...
           </div>
         )
       default:
