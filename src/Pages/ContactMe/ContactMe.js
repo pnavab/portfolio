@@ -21,7 +21,9 @@ export default function ContactMe() {
           </div>
           <div className='contact-page-content'>
             <div className='contact-page-socials'>
-              <button className='gmail social-button'></button>
+              <a href='mailto:pablonavab@gmail.com'>&nbsp;
+                <button className='gmail social-button'></button>
+              </a>
               <button className='github social-button' onClick={() => navigateToSocial('https://www.github.com/pnavab')}></button>
               <button className='linkedin social-button' onClick={() => navigateToSocial('https://www.linkedin.com/in/pablonavabarrera')}></button>
             </div>
