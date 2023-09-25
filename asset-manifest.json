@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cb993f8f.css",
+    "main.css": "/portfolio/static/css/main.d5f979c5.css",
     "main.js": "/portfolio/static/js/main.b27c9f0f.js",
     "static/media/cleezy.jpg": "/portfolio/static/media/cleezy.ae78e31955b4af24f3e9.jpg",
     "static/media/github.png": "/portfolio/static/media/github.41bf98757324c33fba78.png",
     "index.html": "/portfolio/index.html",
-    "main.cb993f8f.css.map": "/portfolio/static/css/main.cb993f8f.css.map",
+    "main.d5f979c5.css.map": "/portfolio/static/css/main.d5f979c5.css.map",
     "main.b27c9f0f.js.map": "/portfolio/static/js/main.b27c9f0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb993f8f.css",
+    "static/css/main.d5f979c5.css",
     "static/js/main.b27c9f0f.js"
   ]
 }
