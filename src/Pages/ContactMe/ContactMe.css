@@ -42,8 +42,10 @@
     float: left;
     margin: 4px 20px 4px 20px;
     border: none;
+    transition: ease-in-out .2s;
 }
 
 .social-button:hover {
     transform: scale(1.15);
+    margin-top: -10px;
 }

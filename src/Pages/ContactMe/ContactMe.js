@@ -3,9 +3,6 @@ import './ContactMe.css';
 import Typewriter from 'typewriter-effect';
 
 export default function ContactMe() {
-  function navigateToSocial(link) {
-    window.location.href = link;
-  }
   return (
     <>
       <div className='contact-page' id='contact-me'>
